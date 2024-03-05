@@ -1,0 +1,629 @@
+body
+{
+    background-color: rgba(55, 141, 112, 0.897);
+}
+
+.accordion 
+{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    text-align: center; 
+    width: 98%; 
+    margin-left: 1%;
+}
+  
+.active, .accordion:hover 
+{
+    background-color: #ccc;
+}
+  
+.panel 
+{
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.objednaj
+{
+    text-decoration: none;
+}
+
+.text_uputavka
+{
+    margin-right: 3%; 
+    margin-left: 3%; 
+    text-align: center;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar-nav
+{
+    margin-right: 60px;
+}
+
+.objednaj:hover
+{
+    background-color: rgb(199, 199, 199); 
+}
+
+#nadpis
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+@media (max-width: 999px) 
+{
+.nav-item:hover
+{
+    background-color: rgba(55, 141, 112, 0.897);
+    border-radius: 10px;
+}
+.uvodny_text
+{
+    box-sizing: content-box;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgba(102, 102, 102, 0.534);
+    margin: 0 auto;
+    border-radius: 21% 79% 21% 79% / 100% 0% 100% 0% ;
+}
+
+}
+
+@media (min-width: 1000px) 
+{
+
+.nav-item:hover
+{
+    background-color: rgba(55, 141, 112, 0.897);
+    border-radius: 10px;
+}
+
+.uvodny_text
+{
+    box-sizing: content-box;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding-top: 2cap;
+    padding-bottom: 2cap;
+    padding-left: 7cap;
+    padding-right: 7cap;
+    background-color: rgba(102, 102, 102, 0.534);
+    margin: 5px 20px;
+    border-radius: 21% 79% 21% 79% / 100% 0% 100% 0% ;
+}
+}
+@media (max-width: 767px) 
+{
+.obrazky 
+{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: max-content;
+    width: 95%;
+}
+.obrazok
+{
+    padding-bottom: 25px; 
+    background-color: white;
+    border-radius: 20px; 
+    margin-bottom: 20px;
+}
+.objednaj
+{
+    display: flex;
+    width: 90%; 
+    height: fit-content; 
+    border-radius: 20px; 
+    color: rgb(0, 0, 0); 
+    font-size: x-large; 
+    font-weight: bolder;
+    border: 1px solid black;
+}
+.sprava
+{
+    font-size: 1.5cap;
+    width: 100%;
+}
+.clanok
+{
+    display: block;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.formular
+{
+    margin-right: 0; 
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.dest
+{
+    display: block;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.nazov
+{
+    text-align: center;
+    font-weight: bold;
+}
+.sidlo
+{
+    border-radius: 10px; 
+    width: 75vw; 
+    max-width: 80%;
+}
+.obj
+{
+    display: flex;
+    justify-content: center;
+}
+.aktualne_destinacie
+{
+    padding: 15px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    background-color: white; 
+    border-radius: 10px; 
+    width: fit-content; 
+    font-weight: bold;
+}
+}
+
+@media (min-width: 768px) 
+{
+.obrazky 
+{
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.obrazok
+{
+    position: relative;
+    padding-bottom: 30px; 
+    background-color: white;
+    border-radius: 20px;
+    width: fit-content;
+    min-width: 40%;
+}
+.objednaj
+{
+    min-width: 70%;
+    max-width: 75%; 
+    min-height: 5%;
+    max-height: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%; 
+    padding-bottom: 3%;
+    border-radius: 20px; 
+    color: rgb(0, 0, 0); 
+    font-size: 1.8cap; 
+    font-weight: bold;
+    border: 1px solid black;
+}
+.sprava
+{
+    font-size: 1.5cap;
+    width: 200%;
+    padding: 20px;
+}
+.clanok
+{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding: 10px; 
+    background-color: white; 
+    border-radius: 10px; 
+    margin-bottom: 25px;
+}
+.formular
+{
+    margin-right: 20%; 
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+.dest
+{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+.nazov
+{
+    margin-left: 70%;
+    font-weight: bold;
+}
+.dest_ob
+{
+    border-radius: 5px; 
+    margin-left: 15px;
+}
+.sidlo
+{
+    border-radius: 10px; 
+    width: 45vw; 
+    max-width: 40cap; 
+    min-width: 20cap;
+}
+.aktualne_destinacie
+{
+    padding: 15px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    background-color: white; 
+    border-radius: 10px; 
+    width: fit-content; 
+    font-weight: bold;
+    margin-top: 7%;
+}
+}
+.pozadie 
+{
+  min-width: 1000px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.popup 
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.popup .popuptext 
+{
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+  
+.popup .popuptext::after 
+{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+
+.popup .show 
+{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+  
+
+@-webkit-keyframes fadeIn 
+{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+  
+@keyframes fadeIn 
+{
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.ponuka
+{
+    text-align: center; 
+    font-weight: bolder;
+}
+.objednaj
+{
+    text-align: center; 
+    justify-content: center;
+}
+
+#novinky
+{
+    padding: 15px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    background-color: white; 
+    border-radius: 10px; 
+    width: fit-content; 
+    font-weight: bold;
+}
+
+.kontakt
+{
+    padding: 25px; 
+    background-color: white; 
+    border-radius: 20px;
+}
+
+.adresa
+{
+    font-weight: bold;
+}
+
+.adr
+{
+    white-space: nowrap; 
+    font-size: 20px;
+}
+
+.cookie-consent{
+    position: fixed;
+    bottom: 8px;
+    left: 20px;
+    width: 260px;
+    padding-top: 7px;
+    height: fit-content;
+    padding-bottom: 10px;
+    color: #fff;
+    
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    background: #292929;
+    z-index: 120;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.allow-button{
+    height: 20px;
+    width: 104px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 10px;
+    border-radius: 3px;
+    border: 1px solid green;
+    background-color: green;
+    margin-right: 10px;
+}
+
+.deny-button{
+    height: 20px;
+    width: 104px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 10px;
+    border-radius: 3px;
+    border: 1px solid darkred;
+    background-color: darkred;
+}
+
+.popup 
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup .popuptext 
+{
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+
+.popup .popuptext::after 
+{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+.popup .show 
+{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+
+@-webkit-keyframes fadeIn {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity:1 ;}
+} 
+
+.text_vlavo
+{
+    float: left;
+}
+
+.text_vpravo
+{
+    float: right; 
+    font-weight: bold;
+}
+
+.dest_pozadie
+{
+    background-color: white; 
+    border-radius: 20px; 
+    padding: 10px;
+}
+
+.dest_tlacidlo
+{
+    height: 100%; 
+    margin-top: 24px; 
+    margin-left: 10px;
+}
+
+.kontakty
+{
+    display: inline-block; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+    padding-bottom: 25px;
+}
+
+.email_tel
+{
+    white-space: nowrap;
+}
+
+.kto
+{
+    margin-bottom: 20px;
+}
+
+.formular_pozadie
+{
+    background-color: grey; 
+    border-radius: 20px; 
+    padding: 25px;
+}
+
+.formular_nadpis
+{
+    font-weight: bold; 
+    margin-top: 30px;
+}
+
+.formular_label
+{
+    margin-bottom: 10px;
+}
+
+.formular_input
+{
+    margin-bottom: 2%;
+}
+
+.formular_textarea
+{
+    resize: none; 
+    margin-bottom: 2%; 
+    height: 200px;
+}
+
+.zoznam
+{
+    background-color: white; 
+    border-radius: 15px; 
+    padding: 15px;
+}
+
+.zoznam_zac_text
+{
+    margin-left: 10px;
+}
+
+.zoznam_tlacidlo
+{
+    margin: 0 auto; 
+    color: white; 
+    background-color: grey; 
+    font-size: large;
+}
+
+.cookie-text {
+    display: inline;
+}
+
+
+.popup {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.zoznam td {
+    vertical-align: top;
+}
+
+.zoznam ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.zoznam li {
+    margin-bottom: 5px;
+}
+
+.zoznam td:nth-child(3) {
+    text-align: left;
+}
