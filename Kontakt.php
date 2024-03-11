@@ -22,45 +22,9 @@
 </head>
 
 <body>
-    <!-- Hlavička -->
-    <header class="bg-dark container-fluid text-center fixed-top">
-        <div class="logo-container">
-            <!-- Logo obrázok -->
-            <img src="img/logo.png" alt="Logo" style="height: 70px; width: auto;">
-            <div class="container">
-                <!-- Navigačný panel -->
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <!-- Tlačidlo pre skrytie a rozvinutie menu -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
-                        style="margin-bottom: 2%;">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- Navigačné odkazy -->
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item mx-2">
-                                <!-- Odkaz na domov -->
-                                <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="index.html">Domov</a>
-                            </li>
-                            <li class="nav-item mx-2">
-                                <!-- Odkaz na destinácie -->
-                                <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="Destinacie.html">Destinácie</a>
-                            </li>
-                            <li class="nav-item mx-2">
-                                <!-- Odkaz na služby -->
-                                <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="Sluzby.html">Služby</a>
-                            </li>
-                            <li class="nav-item mx-2">
-                                <!-- Odkaz na kontakt -->
-                                <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="Kontakt.html">Kontakt</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <?php
+        include_once("partials/header.php");
+    ?>
     <!-- Hlavný obsah stránky -->
     <div class="container">
         <br><br><br><br><br><br><br>
@@ -165,31 +129,15 @@
     </div>
     <br><br>
     <!-- Päta stránky -->
-    <div class="container">
-        <footer class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <!-- Odkaz na domov -->
-                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Domov</a></li>
-                <!-- Odkaz na destinácie -->
-                <li class="nav-item"><a href="Destinacie.html" class="nav-link px-2 text-body-secondary">Destinácie</a></li>
-                <!-- Odkaz na služby -->
-                <li class="nav-item"><a href="Sluzby.html" class="nav-link px-2 text-body-secondary">Služby</a></li>
-                <!-- Odkaz na kontakt -->
-                <li class="nav-item"><a href="Kontakt.html" class="nav-link px-2 text-body-secondary">Kontakt</a></li>
-            </ul>
-            <!-- Informácie o copyrighte -->
-            <p class="text-center text-body-secondary">© 2023 Vias s.r.o</p>
-            <!-- Informácie o vypracovaní -->
-            <p class="text-center text-body-secondary" style="font-weight: bold;">Vypracoval Adam Gál</p>
-        </footer>
-    </div>
+    <?php
+        include_once("partials/footer.php");
+    ?>
 
     <!-- JavaScript skripty -->
     <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-    
 </body>
 
 </html>

@@ -39,7 +39,7 @@ function validateAndOpen() {
     return;
   }
   if (isValidEmail(email) && consentCheckbox.checked) {
-      window.location.href = "ThankYouPage.html";
+      window.location.href = "ThankYouPage.php";
   } else {
       if (!isValidEmail(email)) {
           alert("Neplatná e-mailová adresa");
