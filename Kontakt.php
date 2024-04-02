@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="sk">
-<head>
-    <!-- Metadata -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Prepojenia a štýly -->
-    <link rel="icon" href="img/logo.png">
-    <link rel="stylesheet" href="css/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
-    <!-- Inline štýly -->
-    <style>
-        body {
-            background: radial-gradient(circle, rgba(3,124,166,1) 0%, rgba(38,129,208,1) 60%, rgba(0,212,255,1) 100%);
-        }
-    </style>
-    <!-- Názov stránky -->
-    <title>Destnácie</title>
-</head>
+<?php
+    include_once("partials/head.php");
+?>
 
 <body>
     <?php
@@ -126,18 +107,8 @@
                 <button id="odoslat" type="button" class="btn btn-primary" onclick="validateAndOpen()">Odoslať</button>
             </form>
         </div>
-    </div>
     <br><br>
     <!-- Päta stránky -->
     <?php
         include_once("partials/footer.php");
     ?>
-
-    <!-- JavaScript skripty -->
-    <script src="js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-</body>
-
-</html>

@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="sk">
-
-<head>
-    <!-- Metadata -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Prepojenia a štýly -->
-    <link rel="icon" href="img/logo.png">
-    <link rel="stylesheet" href="css/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
-    <!-- Inline štýly -->
-    <style>
-        body {
-            background: linear-gradient(180deg, rgb(0, 255, 242) 0%, rgb(98, 141, 141) 100%);
-        }
-    </style>
-    
-    <!-- Názov stránky -->
-    <title>Cestovná kancelária Vias</title>
-</head>
+<?php
+    include_once("partials/head.php");
+?>
 
 <body>
     <?php
@@ -49,7 +28,7 @@
                 <p class="text_uputavka">Kultúrne poklady a harmonická atmosféra vytvárajú ideálnu dovolenkovú oázu. Bali je miestom, kde sa stretáva prírodná krása s kultúrnym bohatstvom, ponúkajúc nezabudnuteľné zážitky pre váš oddych a zážitky.</p>
                 <br>
                 <div class="obj">
-                    <a href="podstranka1.html" class="objednaj">Objednaj TU !!!</a>
+                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
             <!-- Destinácia Egypt -->
@@ -61,7 +40,7 @@
                 <p class="text_uputavka">Piesočné pláže pri tyrkysovo modrom mori vytvárajú dokonalý ráj pre oddych. Egypt je miestom, kde sa stretáva moderný luxus s historickým pokladom, ponúkajúc nezabudnuteľné zážitky a relaxáciu v jednom.</p>
                 <br>
                 <div class="obj">
-                    <a href="podstranka1.html" class="objednaj">Objednaj TU !!!</a>
+                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
             <!-- Destinácia Kanárske ostrovy -->
@@ -72,7 +51,7 @@
                 <p class="text_uputavka">Oáza pod slnkom a modrým nebom Atlantiku. Zlatisté pláže, ktoré omýva príjemné teplo oceánu, tvoria dokonalé miesto na oddych. Kanárske ostrovy sú miestom, vytvárajúc ideálny raj pre oddych a objavovanie.</p>
                 <br>
                 <div class="obj">
-                    <a href="podstranka1.html" class="objednaj">Objednaj TU !!!</a>
+                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
         </div>   
@@ -86,7 +65,7 @@
                 <p class="text_uputavka">Zlatisté pláže, kultúrne poklady a harmonická atmosféra vytvárajú ideálnu dovolenkovú oázu. Bali je miestom, kde sa stretáva prírodná krása s kultúrnym bohatstvom, ponúkajúc nezabudnuteľné zážitky pre váš oddych a zážitky.</p>
                 <br>
                 <div class="obj">
-                    <a href="Destinacie.html" class="objednaj">Objednaj TU !!!</a>
+                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
             <!-- Destinácia Egypt -->
@@ -96,7 +75,7 @@
                 <p class="text_uputavka">Piesočné pláže pri tyrkysovo modrom mori vytvárajú dokonalý ráj pre oddych. Egypt je miestom, kde sa stretáva moderný luxus s historickým pokladom, ponúkajúc nezabudnuteľné zážitky a relaxáciu v jednom.</p>
                 <br>
                 <div class="obj">
-                    <a href="Destinacie.html" class="objednaj">Objednaj TU !!!</a>
+                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
             <!-- Destinácia Kanárske ostrovy -->
@@ -106,7 +85,7 @@
                 <p class="text_uputavka">Oáza pod slnkom a modrým nebom Atlantiku. Zlatisté pláže, ktoré omýva príjemné teplo oceánu, tvoria dokonalé miesto na oddych. Kanárske ostrovy sú miestom, vytvárajúc ideálny raj pre oddych a objavovanie.</p>
                 <br>
                 <div class="obj">
-                    <a href="Destinacie.html" class="objednaj">Objednaj TU !!!</a>
+                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
         </div>
@@ -168,13 +147,3 @@
             include_once("partials/footer.php");
         ?>
 
-        <!-- JavaScript skripty -->
-        <script src="js/index.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-
-    </div>
-</body>
-
-</html>
