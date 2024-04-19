@@ -28,7 +28,7 @@
                 <p class="text_uputavka">Kultúrne poklady a harmonická atmosféra vytvárajú ideálnu dovolenkovú oázu. Bali je miestom, kde sa stretáva prírodná krása s kultúrnym bohatstvom, ponúkajúc nezabudnuteľné zážitky pre váš oddych a zážitky.</p>
                 <br>
                 <div class="obj">
-                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
+                    <a href="destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
             <!-- Destinácia Egypt -->
@@ -40,7 +40,7 @@
                 <p class="text_uputavka">Piesočné pláže pri tyrkysovo modrom mori vytvárajú dokonalý ráj pre oddych. Egypt je miestom, kde sa stretáva moderný luxus s historickým pokladom, ponúkajúc nezabudnuteľné zážitky a relaxáciu v jednom.</p>
                 <br>
                 <div class="obj">
-                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
+                    <a href="destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
             <!-- Destinácia Kanárske ostrovy -->
@@ -51,7 +51,7 @@
                 <p class="text_uputavka">Oáza pod slnkom a modrým nebom Atlantiku. Zlatisté pláže, ktoré omýva príjemné teplo oceánu, tvoria dokonalé miesto na oddych. Kanárske ostrovy sú miestom, vytvárajúc ideálny raj pre oddych a objavovanie.</p>
                 <br>
                 <div class="obj">
-                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
+                    <a href="destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
         </div>   
@@ -65,7 +65,7 @@
                 <p class="text_uputavka">Zlatisté pláže, kultúrne poklady a harmonická atmosféra vytvárajú ideálnu dovolenkovú oázu. Bali je miestom, kde sa stretáva prírodná krása s kultúrnym bohatstvom, ponúkajúc nezabudnuteľné zážitky pre váš oddych a zážitky.</p>
                 <br>
                 <div class="obj">
-                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
+                    <a href="destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
             <!-- Destinácia Egypt -->
@@ -75,7 +75,7 @@
                 <p class="text_uputavka">Piesočné pláže pri tyrkysovo modrom mori vytvárajú dokonalý ráj pre oddych. Egypt je miestom, kde sa stretáva moderný luxus s historickým pokladom, ponúkajúc nezabudnuteľné zážitky a relaxáciu v jednom.</p>
                 <br>
                 <div class="obj">
-                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
+                    <a href="destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
             <!-- Destinácia Kanárske ostrovy -->
@@ -85,7 +85,7 @@
                 <p class="text_uputavka">Oáza pod slnkom a modrým nebom Atlantiku. Zlatisté pláže, ktoré omýva príjemné teplo oceánu, tvoria dokonalé miesto na oddych. Kanárske ostrovy sú miestom, vytvárajúc ideálny raj pre oddych a objavovanie.</p>
                 <br>
                 <div class="obj">
-                    <a href="Destinacie.php" class="objednaj">Objednaj TU !!!</a>
+                    <a href="destinacie.php" class="objednaj">Objednaj TU !!!</a>
                 </div>
             </div>
         </div>

@@ -21,15 +21,15 @@
                         </li>
                         <li class="nav-item mx-2">
                             <!-- Odkaz na destinácie -->
-                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="Destinacie.php">Destinácie</a>
+                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="destinacie.php">Destinácie</a>
                         </li>
                         <li class="nav-item mx-2">
                             <!-- Odkaz na služby -->
-                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="Sluzby.php">Služby</a>
+                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="sluzby.php">Služby</a>
                         </li>
                         <li class="nav-item mx-2">
                             <!-- Odkaz na kontakt -->
-                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="Kontakt.php">Kontakt</a>
+                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="kontakt.php">Kontakt</a>
                         </li>
                     </ul>
                 </div>
