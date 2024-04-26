@@ -23,7 +23,7 @@
                     break;
                 case 'kontakt':
                     echo "<style> body { background: radial-gradient(circle, rgba(3,124,166,1) 0%, rgba(38,129,208,1) 60%, rgba(0,212,255,1) 100%);} </style>";
-                    echo "<title>Kontakt</title>";
+                    echo "<title>Kontakty</title>";
                     break;
                 case 'sluzby':
                     echo "<style> body { background: radial-gradient(circle, rgba(3,124,166,1) 0%, rgba(38,129,208,1) 60%, rgba(0,212,255,1) 100%);} </style>";
