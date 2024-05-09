@@ -1,6 +1,6 @@
 <?php
 
-    class page
+    class Stranka
     {
         private  $page_name;
     

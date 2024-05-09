@@ -1,6 +1,6 @@
 <?php
 
-class Special extends Database
+class Special extends Databaza
 {
     private $db;
 

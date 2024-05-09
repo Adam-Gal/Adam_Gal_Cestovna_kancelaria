@@ -1,3 +1,8 @@
+<?php
+    require_once('_inc/config.php');
+    $kontact_object = new Kontakty();
+    $kontact_object->vlozit();
+?>
 <!DOCTYPE html>
 <html lang="sk">
 <head>
@@ -20,15 +25,11 @@
 	<header class="site-header" id="header">
 		<h1 class="site-header__title" data-lead-id="site-header-title">Ďakujeme za dotaz</h1>
 	</header>
-    <br><br><br>
-	<div class="main-content">
-		<p class="main-content__body" data-lead-id="main-content-body">Dajte nám nejaký čas na to aby sme Vám mohli odpovedať.</p>
-	</div>
     <br>
     <a href="kontakt.php" style="color: white; margin-bottom: 25px" class="btn btn-secondary">Naspäť</a>
     <br>
 	<footer class="site-footer" id="footer">
-		<p class="site-footer__fineprint" id="fineprint">© 2023 Vias s.r.o</p>
+		<p class="site-footer__fineprint" id="fineprint">© 2024 Vias s.r.o</p>
 	</footer>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 
-    class Database{
+    class Databaza{
 
         private $host = 'localhost';
         private $db_name = 'cestovna_kancelaria_vias';

@@ -1,6 +1,6 @@
 <?php
 
-class Sluzby extends Databaza
+class Menu extends Databaza
 {
     private $db;
 
@@ -13,10 +13,10 @@ class Sluzby extends Databaza
 
         try{
 
-            $sql = "SELECT * FROM sluzby";
+            $sql = "SELECT * FROM menu";
             $query = $this->db->query($sql);
-            $sluzba = $query->fetchAll();
-            return $sluzba;
+            $podstranka = $query->fetchAll();
+            return $podstranka;
 
         }catch(PDOException $e){
             echo $e->getMessage();

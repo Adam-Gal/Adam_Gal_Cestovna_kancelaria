@@ -12,27 +12,18 @@
                     style="margin-bottom: 2%;">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <!-- Navigačné odkazy -->
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item mx-2">
-                            <!-- Odkaz na domov -->
-                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="index.php">Domov</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <!-- Odkaz na destinácie -->
-                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="destinacie.php">Destinácie</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <!-- Odkaz na služby -->
-                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="sluzby.php">Služby</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <!-- Odkaz na kontakt -->
-                            <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="kontakt.php">Kontakt</a>
-                        </li>
-                    </ul>
-                </div>
+                <?php
+                    $menu_object = new Menu();
+                    $podstranky = $menu_object->select();
+                    echo '<div class="collapse navbar-collapse justify-content-center" id="navbarNav">';
+                    echo '<ul class="navbar-nav">';
+                    for ($i = 0; $i < count($podstranky); $i++)
+                    {
+                        echo '<li class="nav-item mx-2"> <a class="nav-link" style="color: rgb(226, 226, 226); font-size: 30px;" href="'.$podstranky[$i]->link.'">'.$podstranky[$i]->nazov.'</a> </li>';
+                    }
+                    echo '</ul>';
+                    echo '</div>';
+                ?>
             </nav>
         </div>
     </div>

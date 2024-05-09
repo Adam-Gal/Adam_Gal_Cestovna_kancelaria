@@ -1,6 +1,6 @@
 <?php
 
-class Novinky extends Database
+class Novinky extends Databaza
 {
     private $db;
 

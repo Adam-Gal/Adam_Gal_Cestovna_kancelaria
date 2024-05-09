@@ -16,7 +16,7 @@
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <?php
     $page_name = basename($_SERVER["SCRIPT_NAME"], '.php');
-    $page_object = new Page($page_name);
+    $page_object = new Stranka($page_name);
     $page_object->add_title();
     ?>
 </head>

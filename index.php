@@ -68,22 +68,7 @@
                 echo '</div>';
             }
             echo '</div>';
-        ?>
 
-        <!-- Kreatívny bod - Cookies a Popup -->
-        <div class="cookie-consent">
-            <p class="cookie-text">Táto stránka používa súbory
-                <span class="popup" onclick="popup()">cookies
-                    <span class="popuptext" id="myPopup">Súbory na zaznamenávanie aktivít na webstránke</span>
-                </span>
-            </p>
-            <div class="mt-2 d-flex align-items-center justify-content-center g-2">
-                <button class="allow-button" onclick="skrytDiv()">Prijať</button>
-                <button class="deny-button" onclick="skrytDiv()">Odmietnuť</button>
-            </div>
-        </div>        
-        
-        <?php
             include_once("partials/footer.php");
         ?>
 
